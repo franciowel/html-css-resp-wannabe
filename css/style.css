@@ -132,9 +132,62 @@ img {
  @media screen and (max-width: 1139px) {
 
     .container {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
  }
+
+ /* PHONE RESPOSNIVE */
+ @media screen and (max-width: 480px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* LESSONS SECTION MOBILE RESPONSIVE */
+    .lessons .col {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    /* STEPS SECTION MOBILE RESPONSIVE */
+    .steps .col {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+        padding-top: 3rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+ }
+
 
